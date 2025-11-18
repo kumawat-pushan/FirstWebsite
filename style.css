@@ -1,0 +1,303 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+#main{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(lnmiit.avif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.heading {
+    top:10%;
+    left:50%;
+    text-align: center;     
+    font-weight: bold;      
+    margin-top: 20px;       
+}
+
+.red-text {
+    color: red;             
+    font-weight: 900;       
+}
+.textbox1 {
+    position: absolute;
+    top: 600px;
+    left: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.textbox2 {
+    position: absolute;
+    top: 600px;
+    left: 720px;
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.textbox3 {
+    position: absolute;
+    top: 600px;
+    left: 1250px;
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.textbox1:hover{
+    color: red;
+}
+.textbox2:hover{
+    color: orange;
+}
+.textbox3:hover{
+    color: blue;
+}
+
+.tech{
+    position: absolute;
+    top: 350px;
+    left: 250px;
+    transform: translate(-50%,-50%);
+    height: 300px;
+    width: 230px;
+    border: 4px solid orange;
+    border-radius: 20px;
+    overflow: hidden;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover ;
+}
+#Debsoc{
+    z-index: 1;
+    transform: translate(-50%,-50%) rotate(-70deg);
+}
+#Debsoc:hover{
+    z-index: 10;
+}
+#E-cell{
+    z-index: 2;
+    transform: translate(-50%,-50%) rotate(-60deg);
+}
+#E-cell:hover{
+    z-index: 10;
+}
+#Quizzinga{
+    z-index: 3;
+    transform: translate(-50%,-50%) rotate(-50deg);
+}
+#Quizzinga:hover{
+    z-index: 10;
+}
+#Phoenix{
+    z-index: 4;
+    transform: translate(-50%,-50%) rotate(-40deg);
+}
+#Phoenix:hover{
+    z-index: 10;
+}
+#Astronomy{
+    z-index: 5;
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#Astronomy:hover{
+    z-index: 10;
+}
+#Cybros{
+    z-index: 6;
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#Cybros:hover{
+    z-index: 10;
+}
+#Cipher{
+    z-index: 7;
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#Cipher:hover{
+    z-index: 10;
+}
+#Plinth{
+    z-index: 8;
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+#Plinth:hover{
+    z-index: 10;
+}
+.cult{
+    
+    position: absolute;
+    top: 350px;
+    left: 800px;
+    transform: translate(-50%,-50%);
+    height: 300px;
+    width: 230px;
+    border: 4px solid red;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#Fundoo{
+    z-index: 1;
+    transform: translate(-50%,-50%) rotate(-66deg);
+}
+#Fundoo:hover{
+    z-index: 14;
+}
+#Sankalp{
+    z-index: 2;
+    transform: translate(-50%,-50%) rotate(-60deg);
+}
+#Sankalp:hover{
+    z-index: 14;
+}
+#Aaveg{
+    z-index: 3;
+    transform: translate(-50%,-50%) rotate(-54deg);
+}
+#Aaveg:hover{
+    z-index: 14;
+}
+#Vignette{
+    z-index: 4;
+    transform: translate(-50%,-50%) rotate(-48deg);
+}
+#Vignette:hover{
+    z-index: 14;
+}
+#Media-Cell{
+    z-index: 5;
+    transform: translate(-50%,-50%) rotate(-42deg); 
+}
+#Media-Cell:hover{
+    z-index: 14;
+}
+#Lc{
+    z-index: 6;
+    transform: translate(-50%,-50%) rotate(-36deg);
+}
+#Lc:hover{
+    z-index: 14;
+}
+#Insignia{
+    z-index: 7;
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#Insignia:hover{
+    z-index: 14;
+}
+#Imagination{
+    z-index: 8;
+   transform: translate(-50%,-50%) rotate(-24deg);
+}
+#Imagination:hover{
+    z-index: 14;
+}
+#Capriccio{
+    z-index: 9;
+    transform: translate(-50%,-50%) rotate(-18deg);
+}
+#Capriccio:hover{
+    z-index: 14;
+}
+#Eminence{
+    z-index: 11;
+    transform: translate(-50%,-50%) rotate(-12deg);
+}
+#Eminence:hover{
+    z-index: 14;
+}
+#Rendition{
+    z-index: 12;
+    transform: translate(-50%,-50%) rotate(-6deg);
+}
+#Rendition:hover{
+    z-index: 14;
+}
+#Viva{
+    z-index: 13;
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+#Viva:hover{
+    z-index: 14;
+}
+.sports{
+    position: absolute;
+    top: 350px;
+    left: 1300px;
+    transform: translate(-50%,-50%);
+    height: 300px;
+    width: 230px;
+    border: 4px solid pink;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#Chess{
+    z-index: 1;
+    transform: translate(-50%,-50%) rotate(-56deg);
+}
+#Chess:hover{
+    z-index: 10;
+}
+#Basketball{
+    z-index: 2;
+    transform: translate(-50%,-50%) rotate(-48deg);
+}
+#Basketball:hover{
+    z-index: 10;
+}
+#Badminton{
+    z-index: 3;
+    transform: translate(-50%,-50%) rotate(-40deg);
+}
+#Badminton:hover{
+    z-index: 10;
+}
+#Cricket{
+    z-index: 4;
+    transform: translate(-50%,-50%) rotate(-32deg);
+}
+#Cricket:hover{
+    z-index: 10;
+}
+#Football{
+    z-index: 5;
+    transform: translate(-50%,-50%) rotate(-24deg);
+}
+#Football:hover{
+    z-index: 10;
+}
+#Kabaddi{
+    z-index: 6;
+    transform: translate(-50%,-50%) rotate(-16deg);
+}
+#Kabaddi:hover{
+    z-index: 10;
+}
+#Volleyball{
+    z-index: 7;
+    transform: translate(-50%,-50%) rotate(-8deg);
+}
+#Volleyball:hover{
+    z-index: 10;
+}
+#Despo{
+    z-index: 8;
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+#Despo:hover{
+    z-index: 10;
+
+}
